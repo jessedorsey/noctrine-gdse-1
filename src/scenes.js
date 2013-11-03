@@ -99,7 +99,7 @@ Crafty.scene('Loading', function(){
     // These components' names are prefixed with "spr_"
     //  to remind us that they simply cause the entity
     //  to be drawn with a certain sprite
-    Crafty.sprite(29,36, 'assets/playercharacter.png', {
+    Crafty.sprite(29,36, 'assets/playercharacter.png?r=1', {
       spr_player: [0,0]
     }, 0, 0);
 
