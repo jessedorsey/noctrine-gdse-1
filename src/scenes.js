@@ -99,11 +99,14 @@ Crafty.scene('Loading', function(){
     // These components' names are prefixed with "spr_"
     //  to remind us that they simply cause the entity
     //  to be drawn with a certain sprite
+    Crafty.sprite(29,36, 'assets/playercharacter.png', {
+      spr_player: [0,0]
+    }, 0, 0);
+
     Crafty.sprite(32, 'assets/forest.gif', {
       spr_tree:    [0, 0],
       spr_bush:    [1, 0],
       spr_village: [0, 1],
-      spr_player:  [3, 0]
     });
 
     // Now that our sprites are ready to draw, start the game
