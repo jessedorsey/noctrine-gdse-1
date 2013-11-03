@@ -91,7 +91,7 @@ Crafty.scene('Loading', function(){
     .css($text_css);
 
   // Load our sprite map image
-  Crafty.load(['assets/Forest.gif'], function(){
+  Crafty.load(['assets/forest.gif'], function(){
     // Once the image is loaded...
 
     // Define the individual sprites in the image
@@ -99,7 +99,7 @@ Crafty.scene('Loading', function(){
     // These components' names are prefixed with "spr_"
     //  to remind us that they simply cause the entity
     //  to be drawn with a certain sprite
-    Crafty.sprite(32, 'assets/Forest.gif', {
+    Crafty.sprite(32, 'assets/forest.gif', {
       spr_tree:    [0, 0],
       spr_bush:    [1, 0],
       spr_village: [0, 1],
